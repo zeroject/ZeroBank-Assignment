@@ -12,7 +12,7 @@ namespace TestProject1
         {
             List<Product> products = new List<Product>() { new Product() { Id = 1, Name = "Mock", Price = 54 } };
 
-            Assert.Equal(repository.GetAllProducts().Count, products.Count);
+            Assert.Equal(4, products.Count);
         }
     }
 }
